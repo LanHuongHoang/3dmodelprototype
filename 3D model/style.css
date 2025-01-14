@@ -1,0 +1,41 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    font-family: 'IvyStyle TW', sans-serif;
+    background-color: #282c34;
+    color: #f0f0f0;
+    overflow-x: hidden;
+    line-height: 1.6;
+    margin: 20px;
+    display: fixed;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+h1{
+    text-transform: uppercase;
+    color: #61dafb;
+}
+text{
+    font-style: italic;
+}
+#model-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: var(--spacing-lg) 0; /* Add margin for spacing */
+    cursor: grab; /* Change cursor to indicate draggable */
+}
+
+#model-container canvas {
+    width: 100%;
+    max-width: 1200px;
+    height: auto;
+    position: relative;
+    margin-top: 20px;
+    margin-bottom: -35px;
+    touch-action:auto;
+}
