@@ -19,21 +19,6 @@ h1{
     text-transform: uppercase;
     color: #61dafb;
 }
-p {
-    margin-top: -100px;
-    opacity: 1;
-    transition: opacity 4s ease-in-out;
-    animation: fadeOut 4s forwards;
-}
-
-@keyframes fadeOut {
-    0% {
-        opacity: 1;
-    }
-    100% {
-        opacity: 0;
-    }
-}
 text{
     font-style: italic;
 }
